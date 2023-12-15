@@ -45,8 +45,6 @@ CI/CD (Continuous Integration/Continuous Deployment) is an essential practice fo
 
 ## Try it out
 ### Set up
-To try out this project, first start with creating a new repository using the template.
-![](demo_images/template.png)
 
 Clone the project to your local machine:
 ```bash
