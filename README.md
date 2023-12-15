@@ -115,12 +115,6 @@ GitHub token is necessary to write metrics and parameters as a comment in your p
 3. In the "Value" field, paste the token that you created in step 1.
 
 ![](demo_images/github_token.png)
-### Create a Pull Request
-Next, [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
-
-The PR will trigger the CI pipeline to run tests. Once all tests passed, a comment will appear in the PR with the metrics and parameters of the new experiment. 
-
-![](demo_images/pr.png)
 
 ### Deploy the Model
 Once the changes are merged, a CD pipeline will be triggered to deploy the ML model. Click the link under the "Deploy model" step to interact with the model. 
